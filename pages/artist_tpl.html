@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title> {{.ArtistName }} </title>
+</head>
+<body>
+<header>
+    <h1> {{.ArtistName }} </h1>
+</header>
+<main>
+    <img src="{{ .ImageLink }}" alt="Картина художника 1">
+    <p> {{.ArtistDescription }}</p>
+    <p>Посетите веб-сайт художника: <a href="{{ .ArtistLink }}">ссылка</a></p>
+</main>
+<nav>
+    <ul>
+        <li><a href="index_tpl.html">На главную</a></li>
+        <!-- Добавьте ссылки на других художников здесь -->
+    </ul>
+</nav>
+</body>
+</html>

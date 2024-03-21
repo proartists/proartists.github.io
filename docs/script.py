@@ -28,7 +28,7 @@ html_template = """
 <main>
     <img src="The_Persistence_of_Memory.jpg" alt="Картина художника 1">
     <p>{ArtistDescription}</p>
-    <p>Посетите веб-сайт художника: <a href="{ArtistLink}">ссылка</a></p>
+    <p>Посетите веб-сайт о художнике: <a href="{ArtistLink}">ссылка</a></p>
     <p>Текущая дата: {CurrentDate}</p>
 </main>
 <nav>

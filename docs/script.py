@@ -26,15 +26,15 @@ html_template = """
     <h1>{ArtistName}</h1>
 </header>
 <main>
-    <img src="The_Persistence_of_Memory.jpg" alt="Картина художника">
+    <img src="The_Persistence_of_Memory.jpg" alt="Картина художника 1">
     <p>{ArtistDescription}</p>
-    <p>Посетите сайт о художнике: <a href="{ArtistLink}">ссылка</a></p>
+    <p>Посетите веб-сайт художника: <a href="{ArtistLink}">ссылка</a></p>
     <p>Текущая дата: {CurrentDate}</p>
 </main>
 <nav>
     <ul>
         <li><a href="index.html">На главную</a></li>
-        <!-- Д -->
+        <!-- Добавьте ссылки на других художников здесь -->
     </ul>
 </nav>
 </body>
